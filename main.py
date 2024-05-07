@@ -27,8 +27,11 @@ scissors = '''
 
 
 import random
+
 moves = [rock, paper, scissors]
+
 choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper and 2 for Scissors.\n"))
+
 if choice>2:
   print("You enetered an invalid number. ")
 else:
